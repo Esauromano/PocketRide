@@ -1,0 +1,89 @@
+# Flutter
+# Generated files
+.dart_tool/
+.buildlog/
+.pub/
+/build/
+/out/
+
+# Ignore build outputs in case you want to commit your lockfiles
+# (e.g. pubspec.lock) but not the generated files.
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.idea/
+.macos/
+linux/
+windows/
+web/
+ios/
+android/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# User-specific files
+*.iml
+*.ipr
+*.iws
+*.swp
+*.lock
+*.log
+
+# Generated files for IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Flutter generated iOS and Android build files
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# Xcode
+**/DerivedData/
+**/Flutter.framework
+**/Flutter.podspec
+**/*.xcodeproj/*
+**/*.xcworkspace/*
+!ios/Flutter/.gitkeep
+ios/Podfile
+ios/Podfile.lock
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.podspec
+
+# Android
+android/.gradle/
+android/app/proguard-rules.pro
+android/app/google-services.json
+android/local.properties
+android/*.iml
+android/*.keystore
+
+# Keystore files
+*.jks
+
+# Web specific
+web/.dart_tool/
+/web/.packages
+
+# LFS (Optional, for tracking large files)
+**/*.bin
+**/*.dill
+**/*.dSYM
